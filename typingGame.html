@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="typingGame.css">
+    <title>Typing Speed Game</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Typing Speed Game</h1>
+    </header>
+    <div class="gameContent">
+        <div class="parametersBar">
+            <div class="difficulty">
+                <label for="select">Select difficulty:&nbsp;</label>
+                <select name="select" id="select">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <div class="time">Time:&nbsp;<span class="timeLeft">60</span></div>
+            <div class="score">Score:&nbsp;<span><span class="scoreNum">0</span>/30</span></div>
+        </div>
+        <div class="playBtn">Start playing</div>
+        <div class="word hide"></div>
+        <input type="text" class="typing">
+        <div class="words">Words will be placed here</div>
+    </div>
+    <script src="typingGame.js"></script>
+</body>
+</html>
