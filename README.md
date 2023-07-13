@@ -1,2 +1,2 @@
 # Typing-Speed-Game
-A typing speed game using HTML, CSS and JavaScript.
+A typing speed game using HTML, CSS and  JavaScript.
